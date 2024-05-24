@@ -1,0 +1,40 @@
+body {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+#head1 {
+  color: green;
+}
+.head6 {
+  color: blue;
+}
+* {
+  font-size: 40;
+}
+
+h1,
+.head6,
+#head1,
+p,
+input {
+  color: yellow;
+}
+
+h1::selection {
+  color: green;
+}
+
+.head6:hover,
+p:hover {
+  background-color: blue;
+  color: white;
+}
+
+li:nth-child(even) {
+  background-color: blue;
+}
+
+.main > .info-head-para > h1 {
+  color: blue;
+}
